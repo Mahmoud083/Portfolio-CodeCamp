@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  />
+  <meta
+    name="description"
+    content="Mahmoud’s portfolio — Computer Engineering undergrad & web developer"
+  />
+  <title>Mahmoud’s Portfolio</title>
+  <link rel="icon" href="favicon.ico" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- NAVBAR -->
+  <nav id="navbar">
+    <a href="#" id="nav-toggle" aria-label="Toggle menu">☰</a>
+    <ul id="nav-menu">
+      <li><a href="#welcome-section">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button id="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+  </nav>
+
+  <!-- WELCOME -->
+  <section id="welcome-section" data-reveal>
+    <h1>Hello, I’m Mahmoud</h1>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" data-reveal>
+    <h2>About Me</h2>
+    <div class="about-container">
+      <img
+        src="images/me.png"
+        alt="Portrait of Mahmoud"
+        loading="lazy"
+      />
+      <div>
+        <p>
+          I’m Mahmoud, a Computer Engineering undergrad at Medipol
+          University with a passion for front‑end development.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" data-reveal>
+    <h2>Skills</h2>
+    <div class="skill">
+      <span>HTML &amp; CSS</span>
+      <div class="bar"><div style="--pct:90%"></div></div>
+    </div>
+    <div class="skill">
+      <span>JavaScript</span>
+      <div class="bar"><div style="--pct:80%"></div></div>
+    </div>
+    <div class="skill">
+      <span>React</span>
+      <div class="bar"><div style="--pct:70%"></div></div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" data-reveal>
+    <h2>Some of My Projects</h2>
+    <div class="projects-grid">
+      <div class="project-tile" data-reveal>
+        <img
+          src="images/smartfit.jpg"
+          alt="Screenshot of SmartFit Landing Page"
+          loading="lazy"
+        />
+        <h3>SmartFit Landing Page</h3>
+        <a href="#" target="_blank" rel="noopener">
+          Live Demo
+        </a>
+      </div>
+      <div class="project-tile" data-reveal>
+        <img
+          src="images/smartfit.jpg"
+          alt="Screenshot of SmartFit Landing Page"
+          loading="lazy"
+        />
+        <h3>SmartFit Landing Page</h3>
+        <a href="#" target="_blank" rel="noopener">
+          Live Demo
+        </a>
+      </div>
+      <div class="project-tile" data-reveal>
+        <img
+          src="images/smartfit.jpg"
+          alt="Screenshot of SmartFit Landing Page"
+          loading="lazy"
+        />
+        <h3>SmartFit Landing Page</h3>
+        <a href="#" target="_blank" rel="noopener">
+          Live Demo
+        </a>
+      </div>
+      <div class="project-tile" data-reveal>
+        <img
+          src="images/smartfit.jpg"
+          alt="Screenshot of SmartFit Landing Page"
+          loading="lazy"
+        />
+        <h3>SmartFit Landing Page</h3>
+        <a href="#" target="_blank" rel="noopener">
+          Live Demo
+        </a>
+      </div>
+      <div class="project-tile" data-reveal>
+        <img
+          src="images/smartfit.jpg"
+          alt="Screenshot of SmartFit Landing Page"
+          loading="lazy"
+        />
+        <h3>SmartFit Landing Page</h3>
+        <a href="#" target="_blank" rel="noopener">
+          Live Demo
+        </a>
+      </div>
+      <!-- add more .project-tile blocks here -->
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" data-reveal>
+    <h2>Get in Touch</h2>
+    <form action="#" method="POST">
+      <label>
+        Your Name
+        <input type="text" name="name" required />
+      </label>
+      <label>
+        Your Email
+        <input type="email" name="email" required />
+      </label>
+      <label>
+        Message
+        <textarea name="message" rows="4" required></textarea>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="footer" data-reveal>
+    <p>
+      <a
+        id="profile-link"
+        href="https://github.com/Mahmoud083"
+        target="_blank"
+        rel="noopener"
+      >
+        GitHub
+      </a>
+      <a
+        id="linkedin-link"
+        href="https://www.linkedin.com/in/yourusername/"
+        target="_blank"
+        rel="noopener"
+      >
+        LinkedIn
+      </a>
+      <br />
+      <a
+        id="contact-link"
+        href="mailto:mahmoud083art@gmail.com"
+      >
+        Contact Me
+      </a>
+      <br />    
+      © 2025 Mahmoud. All rights reserved.
+    </p>
+  </footer>
+
+  <!-- BACK TO TOP -->
+  <button id="to-top" aria-label="Back to top">↑</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
